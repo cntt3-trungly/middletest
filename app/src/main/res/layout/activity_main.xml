@@ -1,0 +1,225 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:orientation="vertical">
+        <!--logo-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="APP CHỌN NGƯỜI YÊU"
+            android:textColor="@color/red"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/title"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/love" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--   Email  -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1" />
+
+                <EditText
+                    android:id="@+id/Name1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:inputType="textEmailAddress"
+                    android:text="Ngọc Trinh" />
+
+
+                <EditText
+                    android:id="@+id/Age1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:inputType="textEmailAddress"
+                    android:text="25" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2" />
+
+                <EditText
+                    android:id="@+id/Name2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:inputType="textEmailAddress"
+                    android:text="My Nu" />
+
+
+                <EditText
+                    android:id="@+id/Age2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:inputType="textEmailAddress"
+                    android:text="20" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+
+                <EditText
+                    android:id="@+id/Name3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:inputType="textEmailAddress"
+                    android:text="Minh Hằng" />
+
+
+                <EditText
+                    android:id="@+id/Age3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:inputType="textEmailAddress"
+                    android:text="43" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4" />
+
+                <EditText
+                    android:id="@+id/Name4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:hint="name"
+                    android:inputType="textEmailAddress" />
+
+
+                <EditText
+                    android:id="@+id/Age4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:hint="age"
+                    android:inputType="textEmailAddress" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5" />
+
+                <EditText
+                    android:id="@+id/Name5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:hint="name"
+                    android:inputType="textEmailAddress" />
+
+
+                <EditText
+                    android:id="@+id/Age5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="8"
+                    android:gravity="center"
+                    android:hint="age"
+                    android:inputType="textEmailAddress" />
+            </TableRow>
+
+
+
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/buttonPick"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Chọn" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Nhập lại" />
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="Thoát" />
+            </TableRow>
+        </TableLayout>
+
+
+        <!-- Sign up -->
+        <!--  //Sign up  -->
+    </LinearLayout>
+
+
+</ScrollView>
